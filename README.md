@@ -1,5 +1,7 @@
 # PalwordPlayAsPal
 
+> Buggy work in progress — expect rough edges.
+
 Play as your Pal — and attack with it. Companion mod for
 [PlayAsPals](https://www.nexusmods.com/palworld/mods/842): PlayAsPals lets you
 possess any Pal, this mod gives the possessed Pal its bite back — left-click
@@ -21,7 +23,7 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
 
 ## Use
 
-1. Walk up to a Pal and press **Left Alt** (or **right on the controller d-pad**)
+1. Walk up to a Pal you DO NOT OWN and press **Left Alt** (or **right on the controller d-pad**)
    to take it over
 2. To leave the Pal, press **left on the controller d-pad**
 3. **Left-click** — the Pal performs its waza on the nearest enemy in range
