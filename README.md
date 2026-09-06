@@ -21,12 +21,14 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
 
 ## Use
 
-1. Walk up to a Pal and press **Left Alt** (or **right on the controller d-pad**)
-   to take it over — **K** (nearest Pal) and **F10** (menu) from PlayAsPals still work
-2. To leave the Pal, press **left on the controller d-pad** (**F9** still works too)
+1. Walk up to a Pal and press **`** (backtick) or **left on the controller d-pad**
+   to take it over (**K** opens the camera menu, **O** the Pal panel, **F9** the control menu)
+2. To turn back into the player, press **ALT** (or **right on the controller d-pad**)
 3. **Left-click** — the Pal performs its waza on the nearest enemy in range
    (**F7** does the same, backup binding)
 4. As a human, left-click is untouched; clicks while a menu/mouse cursor is up are ignored
+5. The PlayAsPals welcome screen pops up again on world entry — PalAttack hides
+   the repeat automatically (the first one at launch is left alone)
 
 ## Demo video
 

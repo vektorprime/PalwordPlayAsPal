@@ -101,3 +101,24 @@ RegisterHook("/Script/Engine.PlayerInput:InputKey", function(self, Key, EventTyp
         on_attack_key()
     end
 end)
+
+-- PlayAsPals shows its TUT welcome widget at launch AND again on world entry.
+-- Leave the first one alone; hide repeats (its own 30s timer still cleans up).
+local tut_count = 0
+RegisterHook("/Script/UMG.UserWidget:AddToViewport", function(self)
+    local okc, cls = pcall(function() return self:GetClass():GetName() end)
+    if not okc or cls ~= "TUT_C" then return end
+    tut_count = tut_count + 1
+    print(string.format("[PalAttack] TUT welcome #%d\n", tut_count))
+    if tut_count < 2 then return end
+    local ok, err = pcall(function()
+        self:SetVisibility(1) -- Collapsed; widget's own timer removes it later
+        local pc = UEHelpers:GetPlayerController()
+        if pc and pc:IsValid() then
+            local wbl = StaticFindObject("/Script/UMG.Default__WidgetBlueprintLibrary")
+            if wbl then wbl:SetInputMode_GameOnly(pc) end
+            pc.bShowMouseCursor = false
+        end
+    end)
+    print(string.format("[PalAttack] TUT repeat hidden ok=%s %s\n", tostring(ok), ok and "" or tostring(err)))
+end)
