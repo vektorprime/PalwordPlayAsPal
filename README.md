@@ -1,8 +1,9 @@
-# PalAttack
+# PalwordPlayAsPal
 
-Attack as your Pal. Companion mod for [PlayAsPals](https://www.nexusmods.com/palworld/mods/842)
-(logic mod that lets you possess Pals) — adds the missing piece: left-click performs
-the possessed Pal's own waza (skill) on the nearest enemy.
+Play as your Pal — and attack with it. Companion mod for
+[PlayAsPals](https://www.nexusmods.com/palworld/mods/842): PlayAsPals lets you
+possess any Pal, this mod gives the possessed Pal its bite back — left-click
+(or right trigger / F7) performs the Pal's own waza (skill) on the nearest enemy.
 
 ## Requirements
 
