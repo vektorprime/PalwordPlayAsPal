@@ -26,11 +26,6 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
    (**F7** does the same, backup binding)
 3. As a human, left-click is untouched; clicks while a menu/mouse cursor is up are ignored
 
-## How it works
-
-Reads the possessed Pal's live waza action instance (`WazaActionInstancedMap`) and calls
-`PalActionComponent.PlayAction(target, action)`. No game files are modified.
-
 ## Demo video
 
 <a href="https://youtu.be/RF1rZUyXVaA" target="_blank"><img src="https://img.youtube.com/vi/RF1rZUyXVaA/0.jpg" alt="PalwordPlayAsPal demo" /></a>
