@@ -31,6 +31,15 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
 Reads the possessed Pal's live waza action instance (`WazaActionInstancedMap`) and calls
 `PalActionComponent.PlayAction(target, action)`. No game files are modified.
 
+## Screenshots
+
+![Possessed Pal facing an enemy](images/pal1.jpg)
+![Possessed Pal from behind](images/pal2.png)
+![Pal using its skill](images/pal3.png)
+![Chasing down an enemy](images/pal4.png)
+![Out in the field](images/pal5.png)
+![Close-up](images/pal6.png)
+
 ## Troubleshooting
 
 - Nothing happens: open `Pal/Binaries/Win64/ue4ss/UE4SS.log`, look for `[PalAttack]` lines —
