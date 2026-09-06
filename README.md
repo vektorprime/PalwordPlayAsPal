@@ -10,7 +10,7 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
 - Palworld (Steam) + UE4SS ([experimental build](https://github.com/UE4SS-RE/RE-UE4SS/releases/download/experimental-latest/UE4SS_v3.0.1-1125-g527a483b.zip))
   — extract `dwmapi.dll` and the `ue4ss` folder next to `Palworld-Win64-Shipping.exe`
   in `Pal/Binaries/Win64/`, then launch the game once
-- PlayAsPals LogicMod (`PlayAsPals.pak` in `Pal/Content/Paks/LogicMods/`, only one copy)
+- PlayAsPals LogicMod (`PlayAsPals.pak` in `Pal/Content/Paks/LogicMods/`)
 
 ## Install
 
