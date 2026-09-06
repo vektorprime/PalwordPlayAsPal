@@ -31,18 +31,18 @@ possess any Pal, this mod gives the possessed Pal its bite back — left-click
 Reads the possessed Pal's live waza action instance (`WazaActionInstancedMap`) and calls
 `PalActionComponent.PlayAction(target, action)`. No game files are modified.
 
-## Screenshots
-
-![Possessed Pal facing an enemy](images/pal1.jpg)
-![Possessed Pal from behind](images/pal2.png)
-![Pal using its skill](images/pal3.png)
-![Chasing down an enemy](images/pal4.png)
-![Out in the field](images/pal5.png)
-![Close-up](images/pal6.png)
-
 ## Demo video
 
-https://youtu.be/RF1rZUyXVaA
+<a href="https://youtu.be/RF1rZUyXVaA" target="_blank"><img src="https://img.youtube.com/vi/RF1rZUyXVaA/0.jpg" alt="PalwordPlayAsPal demo" /></a>
+
+## Screenshots
+
+<a href="images/pal1.jpg" target="_blank"><img src="images/pal1.jpg" alt="Possessed Pal facing an enemy" /></a>
+<a href="images/pal2.png" target="_blank"><img src="images/pal2.png" alt="Possessed Pal from behind" /></a>
+<a href="images/pal3.png" target="_blank"><img src="images/pal3.png" alt="Pal using its skill" /></a>
+<a href="images/pal4.png" target="_blank"><img src="images/pal4.png" alt="Chasing down an enemy" /></a>
+<a href="images/pal5.png" target="_blank"><img src="images/pal5.png" alt="Out in the field" /></a>
+<a href="images/pal6.png" target="_blank"><img src="images/pal6.png" alt="Close-up" /></a>
 
 ## Troubleshooting
 
