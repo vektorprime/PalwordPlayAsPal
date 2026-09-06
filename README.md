@@ -40,6 +40,10 @@ Reads the possessed Pal's live waza action instance (`WazaActionInstancedMap`) a
 ![Out in the field](images/pal5.png)
 ![Close-up](images/pal6.png)
 
+## Demo video
+
+https://youtu.be/RF1rZUyXVaA
+
 ## Troubleshooting
 
 - Nothing happens: open `Pal/Binaries/Win64/ue4ss/UE4SS.log`, look for `[PalAttack]` lines —
