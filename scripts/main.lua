@@ -81,4 +81,4 @@ local function on_attack_key()
 end
 
 RegisterKeyBind(Key.F7, on_attack_key)
-RegisterKeyBind(Key.LeftMouseButton, on_attack_key)
+RegisterKeyBind(Key.LEFT_MOUSE_BUTTON, on_attack_key)
