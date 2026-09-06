@@ -35,3 +35,9 @@ Reads the possessed Pal's live waza action instance (`WazaActionInstancedMap`) a
   they say which step failed (no pawn, no component, no action, no enemy in 1500 units)
 - Double menus / stuck UI: you have two copies of `PlayAsPals.pak` mounted
   (e.g. one in `Paks/` and one in `Paks/LogicMods/`) — keep exactly one
+
+## Credits
+
+Original PlayAsPals mod by the original author — we modified it so possessed Pals
+can attack. Find them on Twitter [@mrrshawk](https://twitter.com/mrrshawk)
+or Discord: RSHONYOUTUBE
