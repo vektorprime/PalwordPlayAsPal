@@ -82,3 +82,22 @@ end
 
 RegisterKeyBind(Key.F7, on_attack_key)
 RegisterKeyBind(Key.LEFT_MOUSE_BUTTON, on_attack_key)
+
+-- Gamepad right trigger is not in this build's Key enum, so catch it at the
+-- engine input funnel instead: every button press flows through InputKey.
+local function key_name_str(k)
+    local ok, fname = pcall(function() return k.KeyName end)
+    if ok and fname ~= nil then
+        local ok2, s = pcall(function() return fname:ToString() end)
+        if ok2 then return s end
+    end
+    local okt, s = pcall(function() return tostring(k) end)
+    return (okt and s) or ""
+end
+
+RegisterHook("/Script/Engine.PlayerInput:InputKey", function(self, Key, EventType)
+    local name = key_name_str(Key)
+    if string.find(name, "Gamepad_RightTrigger", 1, true) and EventType == 0 then
+        on_attack_key()
+    end
+end)
